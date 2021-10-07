@@ -1,7 +1,8 @@
 # HashTable
 key, value 형식으로 이루어져 있는 자료구조   
-key를 hash 알고리즘을 통해서 정수형식의 인덱스로 변환   
-조회할 때 빠르다  O(1)   
+key를 정수로 변환(해싱)
+Hashing을 위해 사용하는 함수   
+hashTable의 검색은 Hashing을 통해 변환한 정수 값을 메모리 주소로 매핑하기 때문에 빠르다  O(1)   
    
    
 key의 중복이 발생할 때 문제가 생긴다(collison)   
