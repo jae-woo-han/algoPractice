@@ -14,6 +14,7 @@ class LinkedList {
 	
 	void append(int d) {
 		Node end = new Node();
+		end.data = d;
 		Node n = header;
 		while (n.next != null) {
 			n = n.next;
@@ -45,7 +46,14 @@ class LinkedList {
 public class WrappingNodePractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		LinkedList linked = new LinkedList();
+		linked.append(1);
+		linked.append(2);
+		linked.append(3);
+		linked.append(4);
+		linked.retrieve();
+		linked.delete(1);
+		linked.retrieve();
 
 	}
 
