@@ -41,18 +41,37 @@ class LinkedList {
 		}
 		System.out.println(n.data);
 	}
+	
+	void removeDups() {
+		Node n = header;
+		while(n != null && n.next != null) {
+			Node r = n;
+			while(r.next != null) {
+				if (n.data == r.next.data) {
+					r.next = r.next.next;
+				}else {
+					r = r.next;
+				}
+			}
+			n = n.next;
+		}
+	}
 }
 
 public class WrappingNodePractice {
 
 	public static void main(String[] args) {
 		LinkedList linked = new LinkedList();
+		linked.append(2);
 		linked.append(1);
 		linked.append(2);
 		linked.append(3);
 		linked.append(4);
+		linked.append(3);
+		linked.append(2);
+		linked.append(2);
 		linked.retrieve();
-		linked.delete(1);
+		linked.removeDups();
 		linked.retrieve();
 
 	}
