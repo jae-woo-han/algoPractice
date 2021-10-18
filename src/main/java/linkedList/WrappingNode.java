@@ -58,7 +58,7 @@ class LinkedList {
 	}
 }
 
-public class WrappingNodePractice {
+public class WrappingNode {
 
 	public static void main(String[] args) {
 		LinkedList linked = new LinkedList();

@@ -38,7 +38,7 @@ class Node{
 	}
 }
 
-public class Practice {
+public class LinkedListCustom {
 	
 	public static void main(String[] args) {
 		Node head = new Node(1);
