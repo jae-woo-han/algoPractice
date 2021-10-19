@@ -15,3 +15,7 @@ Node 서로 인접하지 않은 셀
 Node 클래스만 이용해 Linked List를 구현한 경우  
 * 시작 Node인 Header 또한 값을 가지고 있는 구조, header 부터 검색을 하는 Linked List는 header Node를 지울 수 없다.
 LinkedList 클래스로 Node를 감싸주고, Header Node를 별도로 지정해준다.
+
+***
+> linked list의 마지막에서 k번째 값 검색
+> 
