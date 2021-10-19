@@ -17,7 +17,7 @@ public class SearchToLastWithRecursiveTest {
 		SearchToLastWithRecursive(head, k);
 
 	}
-	// 내일은 로직 개선 여부 좀 찾아보자
+	// Node 반환해야 할 때 재귀로 해결 법 내일 보기
 	private static int SearchToLastWithRecursive(Node n, int k) {
 		if(n == null) {
 			return 0;
