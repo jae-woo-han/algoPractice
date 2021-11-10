@@ -31,7 +31,7 @@ class MyQueue<T>{
 	}
 }
 
-public class QueueMakeTwoStack {
+public class QueueByTwoStack {
 	public static void main(String[] args) {
 		MyQueue<Integer> q = new MyQueue<Integer>();
 		q.add(1);
